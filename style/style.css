@@ -1,0 +1,204 @@
+.main-page {
+  font-family: 'Muli', sans-serif;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  height: 120px;
+  border-bottom: 1px solid rgb(200,200,200);
+}
+
+.my-name {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto 0;
+  font-size: 50px;
+}
+
+.profession {
+  position: relative;
+  top: -10px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto 0;
+  font-size: 15px;
+  height: 20px;
+  width: 130px;
+}
+
+.main-menu {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto 0 auto auto;
+  font-size: 25px;
+}
+
+.menu {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.close-menu {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 40px 0 40px auto;
+  margin-right: 0;
+  font-size: 25px;
+}
+
+.menu-nav {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  height: 120px;
+  width: 100%;
+}
+
+@keyframes fadeIn { 
+  from { opacity:0; } 
+  to { opacity:1; }
+}
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call fadeIn - use animattion ease-in and repeat once */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards; /* element remains at last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:.5s;
+}
+
+.fade-in.one {
+  animation-delay: .1s;
+}
+
+.fade-in.two {
+  animation-delay: .2s;
+}
+
+.fade-in.three {
+  animation-delay: .3s;
+}
+
+.fade-in.four {
+  animation-delay: .4s;
+}
+
+.menu-item {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto auto 30px;
+  font-size: 30px;
+  height: 40px;
+  width: 220px;
+  color: rgb(80,80,80);
+}
+
+.menu-list {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.menu-item:hover {
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.to-page {
+  margin: 25px 0 25px 0;
+  font-size: 30px;
+}
+
+.about-me-box {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 50px auto;
+  display: flex;
+  width: 100%;
+}
+
+.about-me-pic-box {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  flex-grow: 2;
+  border-right: 1px solid rgb(225,225,255);
+  width: 325px;
+  height: 300px;
+}
+
+.about-me-pic {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.about-me-text-box {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 20px;
+  width: 550px;
+  height: 300px
+}
+
+.about-me-text {
+  height: 300px;
+  width: 550px;
+}
